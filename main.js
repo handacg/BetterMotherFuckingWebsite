@@ -7,11 +7,14 @@ else {
 }
 }, 10000);
 
+document.querySelector('button').onclick = function () {
+  document.body.style.backgroundColor = "#ff00ff";  //background color in magenta
+  document.querySelector('p').style.color="blue" // paragraphs "p" font color in green
+  document.body.style.color = 'green'; // headings in green
+  document.querySelector('p').style.fontFamily = "Papyrus"; // paragraphs font family in Papyrus
+  document.querySelector('h1','h2','h3').style.fontFamily = "Comic Sans MS";} // header font family comic sans
 
 
 
-//background turns to magenta.
-//all para turn font to blue
-//all headings font turn to green 
-//all paras font turn to papyrus and headers font to  Comic sans 
+
 
