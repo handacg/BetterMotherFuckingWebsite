@@ -1,3 +1,26 @@
 *{
 	font-family: georgia;
 }
+
+body{
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+}
+
+#button {
+     line-height: 12px;
+     width: 18px;
+     font-size: 8pt;
+     font-family: georgia;
+     margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+     top:0;
+     right:0;
+ }
+
+
